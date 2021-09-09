@@ -1,0 +1,61 @@
+body {
+  font-family: var(--main-font);
+  color: var(--main-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.list {
+  list-style: none;
+}
+
+.container {
+  max-width: 320px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.section {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 121px 0px 98px 0px;
+}
+
+.advantages__title {
+  color: orange;
+  font-style: italic;
+}
+
+.grid__description {
+  color: chartreuse;
+}
+
+:root {
+  --main-font: "DM Sans", sans-serif;
+  --secondary-font: "Titan One", sans-serif;
+  --main-color: #000000;
+  --secondary-color: #d41443;
+  --first-background-color: #ffb8ca;
+  --menu-background: #e17992;
+  --white-color: #ffffff;
+}/*# sourceMappingURL=main.css.map */
